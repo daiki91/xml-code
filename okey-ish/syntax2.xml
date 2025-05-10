@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE note SYSTEM './syntax2.dtd'>
+
+<!-- <!DOCTYPE note[
+    <!ELEMENT note (to, from, heading, body) >
+    <!ATTLIST note date (DATA) >
+    <!ELEMENT to (#PCDATA)>
+    <!ELEMENT from (#PCDATA)>
+    <!ELEMENT heading (#PCDATA)>
+    <!ELEMENT body (#PCDATA)>
+    <!ENTITY % weriter "Writer: Murata Sensei">
+]> -->
+
+<note date='01/02/2023'>
+    <to email='sdf'>Bryan</to>
+    <from>%weriter;</from>
+    <heading>Reminder</heading>
+    <body color='%cd;'>Go fuck yourself ! Ceci <![CDATA[Ceci sera ignore <3 :v &amp; ]]> </body>
+    <footer />
+</note>

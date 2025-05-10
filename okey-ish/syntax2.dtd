@@ -1,0 +1,13 @@
+<!NOTATION gzip SYSTEM 'gzip.exe' >
+<!ELEMENT note (to, from, heading, body, footer) >
+<!ENTITY % colorful "red | blue | green" >
+<!ATTLIST note date CDATA #IMPLIED >
+<!ATTLIST to 
+    email CDATA #REQUIRED >
+<!ELEMENT to (#PCDATA) >
+<!ELEMENT from (#PCDATA) >
+<!ELEMENT heading (#PCDATA) >
+<!ELEMENT body (#PCDATA) >
+<!ATTLIST body color CDATA #REQUIRED>
+<!ELEMENT footer EMPTY >
+<!ENTITY % weriter 'Writer: Murata sensei' >

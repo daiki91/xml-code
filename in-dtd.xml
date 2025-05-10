@@ -1,0 +1,28 @@
+<!DOCTYPE catalogue[
+    <!ELEMENT catalogue (voitures+)>
+
+    <!ELEMENT voitures (specification, annee, prix)>
+    <!ATTLIST voitures nom CDATA #REQUIRED>
+    
+    <!ELEMENT specification (#PCDATA)>
+    <!ATTLIST specification 
+        marque CDATA #REQUIRED
+        couleur CDATA #REQUIERD>
+
+    <!ELEMENT annee (#PCDATA) >
+    <!ELEMENT prix (#PCDATA) >
+]>
+
+<catalogue>
+    <voitures nom="GT-2600">
+        <specification marque='Porsche' couleur="rouge" />
+        <annee>2022</annee>
+        <prix>1 450 000</prix>
+    </voitures>
+
+    <voitures nom="camaro">
+        <specification marque='Chevrolet' couleur="grise" />
+        <annee>2019</annee>
+        <prix>12 650 000</prix>
+    </voitures>
+</catalogue>

@@ -1,0 +1,18 @@
+<?xml version='1.0' ?>
+<!DOCTYPE doc SYSTEM './un.dtd'>
+
+<doc>
+    <article>
+        <titre> Gigantomachia </titre>
+
+        <auteur id="sss-c-s-h">
+            <nom> 
+              <prenom> Unknown </prenom>
+                <nomFamille> Ranker </nomFamille>
+            </nom>
+            
+            <adresse> Tower of nightmares </adresse>
+        </auteur>
+    
+    </article>
+</doc>

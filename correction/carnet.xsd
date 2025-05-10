@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="carnet">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="personne" type="typePersonne"/>
+                <xs:element name="etudiant" type="typeEtudiant"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="typePersonne">
+        <xs:sequence>
+            <xs:element name="nom" type="xs:string"/>
+            <xs:element name="prenom" type="xs:string"/>
+            <xs:element name="numTel" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="typeEtudiant">
+        <xs:complexContent>
+            <xs:extension base="typePersonne">
+                <xs:sequence>
+                    <xs:element name="numCarte" type="xs:string"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="biblio.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<bibliotheque >
+    <livre isbn ="a123">
+        <auteur ddn="2002-02-14">
+            <nom surnom="Idy">Massaly</nom>
+            <prenom>Idrissa</prenom>
+        </auteur>
+        <titre>sharo</titre>
+        <maison>CleAfrique</maison>
+        <datePub>2023-01-01</datePub>
+        <page>500</page>
+    </livre>
+    <livre isbn ="a2023">
+        <auteur ddn="2002-12-23">
+            <nom surnom="Kepson">Diaby</nom>
+            <prenom>Kepson</prenom>
+        </auteur>
+        <titre>lou bandit di nirol</titre>
+        <maison>KepsonEdition</maison>
+        <datePub>2023-01-01</datePub>
+        <page>300</page>
+    </livre>
+</bibliotheque>

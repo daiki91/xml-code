@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema'>
+    <xs:element name="mail">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name='head' type='typeHead'></xs:element>
+                <xs:element name='body' type='typeBody'></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name='typeHead'>
+        <xs:sequence>
+            <xs:element name='from' type='xs:string' maxOccurs='10' minOccurs='0' />
+            <xs:element name='to' type='xs:string'></xs:element>
+        </xs:sequence>
+        <xs:attribute name='headerType' type='xs:string' />
+    </xs:complexType>
+
+    <xs:complexType name='typeBody'>
+        <xs:sequence>
+            <xs:element name='content' type='xs:string' default="Hi mom"></xs:element>
+        </xs:sequence>
+        <xs:attribute name='bodyType' type='xs:ID' />
+    </xs:complexType>
+
+    <xs:complexType name='TbodyDerivate'>
+        <xs:complexContent>
+            <xs:extension base='typeBody'>
+                <xs:sequence>
+                    <xs:element name='signature' type='xs:decimal'></xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name='complexhead'>
+        <xs:complexContent>
+            <xs:extension base='typeHead'>
+                <xs:sequence>
+                    <xs:element name='fiend' type='xs:string' default="POWER"></xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+</xs:schema>

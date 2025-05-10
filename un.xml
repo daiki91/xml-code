@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<liste_CD>
+    <CD>
+        <artiste type="individual">Camron PO</artiste>
+        
+        <titre no_pistes='4'>Galatea</titre>
+        
+        <pistes>
+            <piste>Fenrir</piste>
+            <piste>Crying Galatea</piste>
+            <piste>UnknowN</piste>
+        </pistes>
+
+        <prix monaie='euro' paiement='CB'>199</prix>
+        
+        <en_vente />
+    </CD>
+</liste_CD>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<article>
+    <head>
+        <title>Hello MAG</title>
+        <author birthdate='2002-11-23'>Big. K</author>
+        <creationDate> 2023-02-01 </creationDate>
+    </head>
+
+    <content>
+        <title> Tomorrow is another day </title>
+        <text> lorem ipsum dolor sit amet non proident </text>
+    </content>
+    
+    <footer>
+        <content>copyright osborne-Corp 2023</content>
+    </footer>
+</article>

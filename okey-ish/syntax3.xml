@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<mail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation='syntax3.xsd'
+        date="12/12/2021">
+    <head>
+        <from id="2">Mike</from>
+        <to id="3">Jason</to>
+    </head>
+
+    <body color='red'>
+        <content> Lore ipsum. </content>
+    </body>
+
+</mail>
